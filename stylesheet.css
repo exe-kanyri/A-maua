@@ -4,10 +4,11 @@
     text-decoration: none;
     list-style: none;
     */
+
 .container{
     display:flex;
     flex-wrap: wrap;
-    height:1180px;
+    height:2000px;
     width:1180px;
     margin-left: -100px;
 
@@ -17,16 +18,16 @@ body{
     background-color: rgb(190, 209, 207);
     display: flex;
     flex-wrap: wrap;
-    height:1180px;
+    height:max-content;
     width:1180px;
 }
 
 
 nav{
-    background-image:url(./Rosalie.jfif);
+    background-image:url(./library/background.jpg);
     opacity: 0.9;
-    height: 150px;
-    width:auto;
+    height: 180px;
+    width: 1180px;;
     display: flex;
     flex-wrap: wrap;
     margin-right:-45px;
@@ -55,7 +56,7 @@ nav ul li a{
     justify-content:space-evenly;
     border-radius:20px;
     text-align: center;
-    padding: 10px 35px;
+    padding: 10px 25px;
     text-transform: uppercase;
     line-height: 130px;
 }
@@ -515,6 +516,147 @@ h3{
 #radio7:checked ~ .navigation-auto .auto-btn7{
     background: rgb(68, 183, 112);
 }
+footer{
+    width:auto;
+    
+    
+}
+.row{
+    width:1250px;
+    position:absolute;
+    top:2300px;
+    bottom:0px;
+    background: linear-gradient( to right, #071047, #816e68);
+    color:#fff;
+    padding:180px 15px;
+    font-size:13px;
+    line-height:20px;
+    margin-left: -8px;
+    
+}
+.footlogo{
+    border-radius: 70%;
+    width:120px;
+    height:120px;
+    margin-right: 500px;
+    
+}
+.col{
+    display:wrap;
+    flex-wrap: wrap;
+    padding:10px;
+    margin-right:500px;
+    margin-top:-150px;
+    font-size: 14px;
+    
+}
+.footnote{
+    flex-basis: 25%;
+    padding:10px;
+    margin-right:550px;
+}
+.col1{
+    margin-left:240px;
+    margin-top: -290px;
+    font-size: 14px;
+}
+.office{
+    width:fit-content;
+    margin-top:30px;
+    position:relative;
+}
+h4{
+    font-weight: 500px;
+    font-size: 17px;
+}
+
+h5{
+    color: rgb(219, 232, 232);
+    font-size:20px;
+    
+}
+.email-id{
+    width:fit-content;
+    border-bottom:2px solid #fff;
+    margin:20px 0;
+    font-size: 13px;
+}
+.col2{
+    margin-left:500px;
+    margin-top:-255px;
+}
+.col2 ul li a{
+    color:#ffff;
+    text-decoration: none;
+}
+.links{
+    font-size: 17px;
+    margin-top:28px;
+}
+.col2 ul li{
+    margin-bottom:12px;
+    border-bottom:12px;
+}
+.col3{
+    margin-left:700px;
+    margin-top:-223px;
+    font-size: 20px;
+    font-weight: 400;
+}
+form{
+    height:100px;
+    width:100px;
+    padding-top:40px;
+    align-items: center;
+    justify-content: center;
+    margin-top:5px;
+}
+form input{
+    background:transparent;
+    color:aliceblue;
+    outline:none;
+    border:solid rgb(212, 212, 212);
+}
+.Newsletter{
+     font-size:16px;
+}
+.social-icons{
+     flex-direction:column;
+     color: #000000;
+     margin-left:335px;
+     margin-top:-95px;
+     
+
+}
+.social-icons .fab{
+    width:20px;
+    height:20px;
+    color:#b4aaaa;
+    margin-bottom:40px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius:10%;
+    background: #fff;
+    margin-left:2px;
+    line-height:-10px;
+    cursor:pointer
+}
+hr{
+    color: #fff;
+    width:90%;
+    border:0;
+    margin:45px;
+    
+    
+}
+.copy{
+    color:#fff;
+    margin-top:5px;
+}
+
+
+
+
 
 
 
